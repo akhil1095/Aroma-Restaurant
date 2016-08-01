@@ -1,0 +1,16 @@
+﻿@using AromaRestaurant.Models
+@model MenuType
+
+@{
+    ViewBag.Title = "Browse";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2  style="font-size:x-large">Browsing Types of Menu: @Model.Name</h2>
+<hr />
+
+<ul>
+    @foreach (MenuItem item in Model.MenuItems)
+    {
+        <li style="font-size:x-large">@Html.ActionLink(item.MenuName, "Details", new { id = item.MenuItemId })</li>
+    }
+</ul>

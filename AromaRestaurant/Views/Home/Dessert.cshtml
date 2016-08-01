@@ -1,0 +1,69 @@
+﻿@model AromaRestaurant.Models.Menu
+
+@{
+    ViewBag.Title = "Dessert";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2  style="color:beige">Dessert</h2>
+
+<div>
+    <h4  style="color:beige">Menu</h4>
+    <hr />
+    <table class="table">
+        <tr  style="color:beige">
+            <th>
+                @Html.DisplayNameFor(model => model.ItemName)
+            </th>
+
+            <td>
+                @Html.DisplayFor(model => model.ItemName)
+            </td>
+
+            <th>
+                @Html.DisplayNameFor(model => model.ShortDescription)
+            </th>
+
+            <td>
+                @Html.DisplayFor(model => model.ShortDescription)
+            </td>
+
+            @*<th>
+                    @Html.DisplayNameFor(model => model.LongDescription)
+                </th>
+
+                <td>
+                    @Html.DisplayFor(model => model.LongDescription)
+                </td>*@
+
+            <th>
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+
+            <td>
+                @Html.DisplayFor(model => model.Price)
+            </td>
+
+            <th>
+                @Html.DisplayNameFor(model => model.ThumbImage)
+            </th>
+
+            <td>
+                @Html.DisplayFor(model => model.ThumbImage)
+            </td>
+
+            @*<th>
+                    @Html.DisplayNameFor(model => model.LargeImage)
+                </th>
+
+                <td>
+                    @Html.DisplayFor(model => model.LargeImage)
+                </td>*@
+        </tr>
+
+    </table>
+</div>
+<p>
+    @*@Html.ActionLink("Edit", "Edit", new { id = Model.MenuId }) |*@
+    @Html.ActionLink("Back to List", "Index")
+</p>

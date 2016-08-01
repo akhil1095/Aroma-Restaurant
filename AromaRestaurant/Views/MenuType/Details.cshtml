@@ -1,0 +1,41 @@
+﻿@using AromaRestaurant.Models
+@model MenuItem
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="description">
+    <h2 style="color:red; font-family:Papyrus; font-size:36px">Details</h2>
+    <h2 style="font-family:Papyrus; font-size:36px">Food Item: @Model.MenuName</h2>
+    <hr />
+    <div>
+        <table class="table">
+            <tr style="color:beige">
+                <th style="font-size:18px; font-family:Papyrus">
+                    Menu Type:
+                </th>
+                <td style="font-size:x-large">
+                    @Model.MenuType.Name
+                </td>
+                <th style="font-size:18px; font-family:Papyrus">
+                    Food Description:
+                </th>
+                <td style="font-size:x-large">
+                    @Model.description
+                </td>
+                <th style="font-size:18px; font-family:Papyrus">
+                    Food Price:
+                </th>
+                <td style="font-size:x-large">
+                    @Model.Price
+                </td>
+                <th style="font-size:18px; font-family:Papyrus">
+                    Food:
+                </th>
+                <td0>
+                    <img src="@Model.FoodUrl" alt="@Model.MenuName" />
+                </td0>
+            </tr>
+        </table>
+    </div>
+</div>
