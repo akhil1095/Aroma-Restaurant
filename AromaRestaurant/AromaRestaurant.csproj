@@ -282,9 +282,6 @@
     <Content Include="Views\Menu\Details.cshtml" />
     <Content Include="Views\Menu\Edit.cshtml" />
     <Content Include="Views\Menu\Index.cshtml" />
-    <Content Include="Views\Home\Appetizers.cshtml" />
-    <Content Include="Views\Home\MainCourse.cshtml" />
-    <Content Include="Views\Home\Dessert.cshtml" />
     <Content Include="Views\MenuType\Index.cshtml" />
     <Content Include="Views\MenuType\Browse.cshtml" />
     <Content Include="Views\MenuType\Details.cshtml" />

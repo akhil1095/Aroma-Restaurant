@@ -1,3 +1,7 @@
+//    -File Name: AromaModel.cs
+//    - Author's Name: Akhil Thakkar(200300312) and Gurpanth Singh(200299024)
+//    - Website Name: aromarestaurant.azurewebsites.net
+//    - Full Description: This file Initilizes the MenuType and MenuItem.
 namespace AromaRestaurant.Models
 {
     using System;

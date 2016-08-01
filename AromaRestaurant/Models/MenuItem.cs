@@ -4,7 +4,11 @@ using System.Linq;
 using System.Web;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
-
+//    -File Name: MenuItem.cs
+//    - Author's Name: Akhil Thakkar(200300312) and Gurpanth Singh(200299024)
+//    - Website Name: aromarestaurant.azurewebsites.net
+//    - Full Description: This Model file initializes the Menu 
+//        item with all the fields included in it. 
 namespace AromaRestaurant.Models
 {
     public class MenuItem

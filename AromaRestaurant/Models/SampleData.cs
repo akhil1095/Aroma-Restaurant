@@ -4,7 +4,11 @@ using System.Linq;
 using System.Web;
 using System.Data.Entity;
 
-
+//    -File Name: SampleData.cs
+//    - Author's Name: Akhil Thakkar(200300312) and Gurpanth Singh(200299024)
+//    - Website Name: aromarestaurant.azurewebsites.net
+//    - Full Description: This Model file stores the data and 
+//          shows in the respective table.
 namespace AromaRestaurant.Models
 {
     public class SampleData : DropCreateDatabaseAlways<AromaModel>
